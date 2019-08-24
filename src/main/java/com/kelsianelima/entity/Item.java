@@ -12,15 +12,18 @@ public class Item {
 	private String observacao;
 	private String categoria;
 	private int quantidade;
-	private int valor_unitario;
-	private int preco_medio;
+	private double valor_unitario;
+	private double preco_medio;
 	
 	
 	
 	public Item() {}
-
-	public Item(ObjectId id, String nome, String observacao, String categoria, int quantidade, int valor_unitario,
-				int preco_medio) {
+	double total (int quantidade, double valor_unitario) {
+		this.quantidade=quantidade;
+		this.valor_unitario=valor_unitario;
+		return preco_medio;
+	}
+	public Item(ObjectId id, String nome, String observacao, String categoria, int quantidade, double valor_unitario) {
 			super();
 			this.id = id;
 			this.nome = nome;
@@ -28,7 +31,6 @@ public class Item {
 			this.categoria = categoria;
 			this.quantidade = quantidade;
 			this.valor_unitario = valor_unitario;
-			this.preco_medio = preco_medio;
 		}
 
 	public String getId() {
@@ -70,22 +72,15 @@ public class Item {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
-
-	public int getValor_unitario() {
+	public double getValor_unitario() {
 		return valor_unitario;
 	}
-
-	public void setValor_unitario(int valor_unitario) {
+	public void setValor_unitario(double valor_unitario) {
 		this.valor_unitario = valor_unitario;
 	}
 
-	public int getPreco_medio() {
-		return preco_medio;
-	}
 
-	public void setPreco_medio(int preco_medio) {
-		this.preco_medio = preco_medio;
-	}
+
 	
 	
 }

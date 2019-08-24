@@ -12,7 +12,9 @@ public class Lista {
 	private ObjectId id;
 	private String descricao;
 	private String observacao;
+
 	 private List<Item> item;
+	 
 	
 	 
 	 
