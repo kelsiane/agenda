@@ -12,5 +12,5 @@ import com.kelsianelima.entity.Lista;
 @RestResource(rel = "listas", path = "listas")
 public interface Listas extends MongoRepository<Lista, String>{
 	Page<List<Lista>> findByDescricao(String descricao, Pageable pageable);
-	
+	 
 }

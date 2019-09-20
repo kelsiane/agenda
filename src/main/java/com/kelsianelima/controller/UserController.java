@@ -3,7 +3,6 @@ package com.kelsianelima.controller;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +18,7 @@ public class UserController {
 
     @Autowired
     Users userRepository;
-
+				
     @RequestMapping(method = RequestMethod.GET)
     public void listar() {
     	userRepository.findAll();
