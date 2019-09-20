@@ -10,7 +10,9 @@
   </ul>
 
 <h3> Instruções para subir a aplicação: </h3>
-<ul> 
+<ul>
+    <li>
+    Baixar e configurar as ferramentas.  </li>
   <li>
     Baixar ou clonar a aplicação do repositório.  </li>
    
