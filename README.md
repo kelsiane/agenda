@@ -1,4 +1,4 @@
-# AGENDA - LISTA DE COMPRAS
+# AGENDA - LISTAS DE COMPRAS
 <h2> Autores: Kelsiane e Tobias </h2>
 
 <h3> Tecnologias utilizadas: </h3>
